@@ -1,8 +1,12 @@
-import { Heading } from "@chakra-ui/react";
+import { Flex, Box } from "@chakra-ui/react";
+import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
   return (
-    <Heading>Welcome to React</Heading>
+    <Flex>
+      <Sidebar />
+      <Box />
+    </Flex>
   )
 }
 
