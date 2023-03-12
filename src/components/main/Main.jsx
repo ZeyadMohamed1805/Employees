@@ -4,7 +4,7 @@ import Employees from "../employees/Employees";
 
 const Main = () => {
     return (
-        <Box className="min-h-full w-full">
+        <Box className="min-h-full w-full" ml="106px">
             <Header />
             <Employees />
         </Box>
