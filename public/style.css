@@ -575,6 +575,10 @@ video {
   display: grid;
 }
 
+.h-\[19px\] {
+  height: 19px;
+}
+
 .min-h-\[100vh\] {
   min-height: 100vh;
 }
@@ -603,6 +607,10 @@ video {
   width: 100%;
 }
 
+.w-\[19px\] {
+  width: 19px;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -627,8 +635,24 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-10 {
   gap: 2.5rem;
+}
+
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-\[19px\] {
+  border-radius: 19px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-l-\[1px\] {
@@ -654,6 +678,15 @@ video {
   background-color: rgb(89 194 3 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#eaeef0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 238 240 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -666,6 +699,10 @@ video {
 
 .to-dashboardGradientBottom {
   --tw-gradient-to: #2763ab;
+}
+
+.p-\[8px\] {
+  padding: 8px;
 }
 
 .text-center {
@@ -686,6 +723,18 @@ video {
 
 .text-dashboardText {
   font-size: 12px;
+}
+
+.text-\[7px\] {
+  font-size: 7px;
+}
+
+.text-\[19px\] {
+  font-size: 19px;
+}
+
+.text-\[9px\] {
+  font-size: 9px;
 }
 
 .text-headerNotificationColor {
