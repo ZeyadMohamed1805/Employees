@@ -2,7 +2,7 @@ import { Flex, Box, Text } from "@chakra-ui/react"
 
 const Sidebar = () => {
     return (
-      <Flex className="bg-gradient-to-b from-dashboardGradientTop to-dashboardGradientBottom flex-col items-center min-h-[100vh]" width="106px" pt="50px">
+      <Flex className="bg-gradient-to-b from-dashboardGradientTop to-dashboardGradientBottom flex-col items-center min-h-[100vh] fixed left-0" width="106px" pt="50px">
         <Flex className="w-full flex-col justify-center items-center cursor-pointer" height="98px" gap="12.9px">
             <i className="fa-solid fa-grip text-dashboardIcons text-white"></i>
             <Text letterSpacing="0.66px" className="text-dashboardText text-white text-center">Dashboard</Text>

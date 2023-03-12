@@ -559,12 +559,29 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.ml-\[\] {
+  margin-left: ;
 }
 
 .flex {
@@ -575,8 +592,8 @@ video {
   display: grid;
 }
 
-.h-\[19px\] {
-  height: 19px;
+.hidden {
+  display: none;
 }
 
 .min-h-\[100vh\] {
@@ -587,32 +604,8 @@ video {
   min-height: 100%;
 }
 
-.min-h-screen {
-  min-height: 100vh;
-}
-
-.min-h-\[\] {
-  min-height: ;
-}
-
-.min-h-\[calc\] {
-  min-height: calc;
-}
-
-.min-h-\[calc\(\)\] {
-  min-height: calc();
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-\[19px\] {
-  width: 19px;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .cursor-pointer {
@@ -643,14 +636,6 @@ video {
   justify-content: space-between;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.rounded-\[\] {
-  border-radius: ;
-}
-
 .rounded-\[19px\] {
   border-radius: 19px;
 }
@@ -667,6 +652,11 @@ video {
   border-right-width: 1px;
 }
 
+.bg-\[\#eaeef0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 238 240 / var(--tw-bg-opacity));
+}
+
 .bg-dashboardEmployees {
   --tw-bg-opacity: 1;
   background-color: rgb(39 101 172 / var(--tw-bg-opacity));
@@ -680,15 +670,6 @@ video {
 .bg-dashboardPseudo {
   --tw-bg-opacity: 1;
   background-color: rgb(89 194 3 / var(--tw-bg-opacity));
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#eaeef0\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 238 240 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -717,6 +698,14 @@ video {
   font-size: 24px;
 }
 
+.text-\[7px\] {
+  font-size: 7px;
+}
+
+.text-\[9px\] {
+  font-size: 9px;
+}
+
 .text-dashboardIcons {
   font-size: 24px;
 }
@@ -727,18 +716,6 @@ video {
 
 .text-dashboardText {
   font-size: 12px;
-}
-
-.text-\[7px\] {
-  font-size: 7px;
-}
-
-.text-\[19px\] {
-  font-size: 19px;
-}
-
-.text-\[9px\] {
-  font-size: 9px;
 }
 
 .text-headerNotificationColor {
@@ -785,4 +762,26 @@ video {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(89 194 3 / var(--tw-bg-opacity));
+}
+
+@media not all and (min-width: 1024px) {
+  .max-lg\:hidden {
+    display: none;
+  }
+}
+
+@media not all and (min-width: 768px) {
+  .max-md\:flex-col {
+    flex-direction: column;
+  }
+}
+
+@media not all and (min-width: 640px) {
+  .max-sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-sm\:items-start {
+    align-items: flex-start;
+  }
 }
