@@ -571,10 +571,6 @@ video {
   display: grid;
 }
 
-.min-h-full {
-  min-height: 100%;
-}
-
 .min-h-\[100vh\] {
   min-height: 100vh;
 }
@@ -631,12 +627,12 @@ video {
   font-size: 24px;
 }
 
-.text-dashboardText {
-  font-size: 12px;
-}
-
 .text-dashboardNotificationFont {
   font-size: 8px;
+}
+
+.text-dashboardText {
+  font-size: 12px;
 }
 
 .text-white {

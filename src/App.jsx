@@ -1,5 +1,5 @@
 import { Flex, Box } from "@chakra-ui/react";
-import Sidebar from "./components/sidebar/Sidebar";
+import Sidebar from "./components/sidebar/Sidebar"
 
 function App() {
   return (
