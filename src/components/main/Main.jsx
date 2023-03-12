@@ -1,10 +1,12 @@
 import { Box } from "@chakra-ui/react";
 import Header from "../header/Header";
+import Employees from "../employees/Employees";
 
 const Main = () => {
     return (
-        <Box as="main" className="min-h-full w-full">
+        <Box className="min-h-full w-full">
             <Header />
+            <Employees />
         </Box>
     )
 }
